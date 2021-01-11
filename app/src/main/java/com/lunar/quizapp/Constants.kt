@@ -4,7 +4,8 @@ object Constants
 {
     fun getQuestions(): ArrayList<Question>
     {
-        val qustionsList = ArrayList<Question>()
+        val questionsList = ArrayList<Question>()
+
         val question1 = Question(
             1,
             "What type of flag is waved to mark the end of a NASCAR race?", R.drawable.nascar,
@@ -13,7 +14,7 @@ object Constants
             "Swedish",
             1)
 
-        qustionsList.add(question1)
+        questionsList.add(question1)
 
         val question2 = Question(
             2,
@@ -23,7 +24,7 @@ object Constants
             "Tears",
             1)
 
-        qustionsList.add(question2)
+        questionsList.add(question2)
 
         val question3 = Question(
             3,
@@ -33,7 +34,7 @@ object Constants
             "Disneyland",
             3)
 
-        qustionsList.add(question3)
+        questionsList.add(question3)
 
         val question4 = Question(
             4,
@@ -43,7 +44,7 @@ object Constants
             "x/y",
             3)
 
-        qustionsList.add(question4)
+        questionsList.add(question4)
 
         val question5 = Question(
             5,
@@ -53,7 +54,7 @@ object Constants
             "Roundchair",
             2)
 
-        qustionsList.add(question5)
+        questionsList.add(question5)
 
         val question6 = Question(
             6,
@@ -63,7 +64,7 @@ object Constants
             "Kilometer",
             1)
 
-        qustionsList.add(question6)
+        questionsList.add(question6)
 
         val question7 = Question(
             7,
@@ -73,7 +74,7 @@ object Constants
             "Owl",
             3)
 
-        qustionsList.add(question7)
+        questionsList.add(question7)
 
         val question8 = Question(
             8,
@@ -83,7 +84,7 @@ object Constants
             "nor",
             3)
 
-        qustionsList.add(question8)
+        questionsList.add(question8)
 
         val question9 = Question(
             9,
@@ -93,7 +94,7 @@ object Constants
             "George Clooney",
             3)
 
-        qustionsList.add(question9)
+        questionsList.add(question9)
 
         val question10 = Question(
             10,
@@ -103,7 +104,7 @@ object Constants
             "Delhi",
             2)
 
-        qustionsList.add(question10)
+        questionsList.add(question10)
 
         val question11 = Question(
             11,
@@ -113,7 +114,7 @@ object Constants
             "Mexico",
             2)
 
-        qustionsList.add(question11)
+        questionsList.add(question11)
 
         val question12 = Question(
             12,
@@ -123,8 +124,8 @@ object Constants
             "Applebees",
             2)
 
-        qustionsList.add(question12)
+        questionsList.add(question12)
 
-        return qustionsList
+        return questionsList
     }
 }
