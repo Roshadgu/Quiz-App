@@ -2,13 +2,17 @@ package com.lunar.quizapp
 
 object Constants
 {
+    const val USER_NAME: String = "user_name"
+    const val TOTAL_QUESTIONS: String = "total_question"
+    const val CORRECT_ANSWERS: String = "correct_answers"
+
     fun getQuestions(): ArrayList<Question>
     {
         val questionsList = ArrayList<Question>()
 
         val question1 = Question(
             1,
-            "What type of flag is waved to mark the end of a NASCAR race?", R.drawable.nascar,
+            "What type of flag is waved to mark the end of a NASCAR race?", R.drawable.ic_flag_of_new_zealand,
             "Checkered",
             "Polka Dot",
             "Swedish",

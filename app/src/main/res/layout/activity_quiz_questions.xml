@@ -55,7 +55,7 @@
                 android:padding="15dp"
                 android:textColorHint="#7A8089"
                 android:textSize="14sp"
-                tools:text="0/10"/>
+                tools:text="0/12"/>
         </LinearLayout>
 
         <TextView
