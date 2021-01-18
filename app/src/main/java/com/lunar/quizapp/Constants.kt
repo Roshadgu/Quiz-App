@@ -32,7 +32,7 @@ object Constants
 
         val question3 = Question(
             3,
-            "Which of these destinations is legally allowed to bill iself as " + "\"" + "The Happiest Place on Earth" + "\"" +"?", R.drawable.ic_flag_of_belgium,
+            "Which of these destinations is legally allowed to bill itself as " + "\"" + "The Happiest Place on Earth" + "\"" +"?", R.drawable.ic_flag_of_belgium,
             "Maryland",
             "Orlando",
             "Disneyland",
